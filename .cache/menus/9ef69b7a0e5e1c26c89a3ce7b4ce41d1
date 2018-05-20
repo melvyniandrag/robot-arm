@@ -1,0 +1,570 @@
+1.2
+lxqt-applications.menu
+9
+D/home/debian/.local/share/desktop-directories
+D/usr/local/share/desktop-directories
+D/usr/share/desktop-directories
+D/home/debian/.local/share/applications
+D/usr/local/share/applications
+D/usr/share/applications
+D/etc/xdg/menus/applications-merged
+D/home/debian/.config/menus/applications-merged
+F/etc/xdg/menus/lxqt-applications.menu
+LXQt;
++Applications
+Applications
+Applications
+applications-other
+lxde-menu-applications.directory
+2
+0
++Accessories
+Accessories
+Desktop accessories
+applications-accessories
+lxde-utility.directory
+2
+0
+-pcmanfm-qt.desktop
+PCManFM File Manager
+Browse the file system and manage the files
+system-file-manager
+
+5
+File Manager
+pcmanfm-qt %U
+2
+0
+
+
+FileManager;Utility;Core;Qt
+
+-vim.desktop
+Vim
+Edit text files
+gvim
+
+5
+Text Editor
+vim %F
+1
+0
+vim
+
+Utility;TextEditor
+Text,editor
+
++Internet
+Internet
+Programs for Internet access such as web and email
+applications-internet
+lxde-network.directory
+2
+0
+-chromium.desktop
+Chromium Web Browser
+Access the Internet
+chromium.png
+
+5
+Web Browser
+/usr/bin/chromium %U
+2
+0
+
+
+Network;WebBrowser
+
+-firefox-esr.desktop
+Firefox ESR
+Browse the World Wide Web
+firefox-esr
+
+5
+Web Browser
+/usr/lib/firefox-esr/firefox-esr %u
+2
+0
+
+
+Network;WebBrowser
+
+
++Other
+Other
+Applications that did not fit in other categories
+applications-other
+lxde-other.directory
+2
+0
+-bone101.desktop
+Chromium Web Browser viewing BONE101
+
+
+
+5
+
+/usr/bin/env GOOGLE_API_KEY="no" GOOGLE_DEFAULT_CLIENT_ID="no" GOOGLE_DEFAULT_CLIENT_SECRET="no" /usr/bin/chromium --start-maximized http://localhost/ 
+0
+0
+
+
+
+
+
++System
+System Tools
+System configuration and monitoring
+applications-system
+lxde-system-tools.directory
+2
+0
+-htop.desktop
+Htop
+Show System Processes
+htop
+
+5
+Process Viewer
+htop
+1
+0
+
+
+ConsoleOnly;System
+system,process,task
+-qterminal.desktop
+QTerminal
+Terminal emulator
+utilities-terminal
+
+5
+Terminal emulator
+qterminal
+0
+0
+
+
+Qt;System;TerminalEmulator
+
+-qterminal_drop.desktop
+QTerminal drop down
+A drop-down terminal emulator.
+utilities-terminal
+
+5
+Drop-down Terminal
+qterminal --drop
+0
+0
+
+
+Qt;System;TerminalEmulator
+
+-gksu.desktop
+Root Terminal
+Opens a terminal as the root user, using gksu to ask for the password
+gksu-root-terminal
+
+5
+
+gksu /usr/bin/x-terminal-emulator
+2
+0
+
+
+GTK;System;TerminalEmulator
+
+
+-
++DesktopSettings
+Preferences
+Personal preferences
+preferences-desktop
+lxde-settings.directory
+2
+0
++LXQtSettings
+LXQt settings
+
+preferences-system
+lxqt-settings.directory
+2
+0
+-lxqt-config.desktop
+LXQt Configuration Center
+Configure your system
+preferences-system
+
+5
+System Settings
+lxqt-config
+0
+32
+
+
+Settings;DesktopSettings;Qt;LXQt
+
+-
+-lxqt-config-appearance.desktop
+Appearance
+Appearance settings for LXQt
+preferences-desktop-theme
+
+5
+Appearance settings
+lxqt-config-appearance
+0
+32
+
+
+Settings;DesktopSettings;Qt;LXQt
+
+-lxqt-config-brightness.desktop
+Brightness
+Configure brightness
+brightnesssettings
+
+5
+Brightness Settings
+lxqt-config-brightness
+0
+32
+
+
+Settings;DesktopSettings;Qt;LXQt;HardwareSettings
+
+-lxqt-admin-time.desktop
+Date and Time
+Configure the date and time of your system
+preferences-system
+
+5
+Date and Time Settings
+lxqt-admin-time
+0
+32
+
+
+Settings;System;DesktopSettings;Qt;LXQt
+
+-pcmanfm-qt-desktop-pref.desktop
+Desktop
+Change wallpapers and behavior of desktop manager
+user-desktop
+
+5
+Desktop Settings
+pcmanfm-qt --desktop-pref=general
+2
+0
+
+
+Settings;Qt;DesktopSettings
+
+-lxqt-config-file-associations.desktop
+File Associations
+Configure applications associated with known file types
+preferences-desktop-filetype-association
+
+5
+File Association Settings
+lxqt-config-file-associations
+0
+32
+
+
+Settings;DesktopSettings;Qt;LXQt
+
+-lxqt-config-input.desktop
+Keyboard and Mouse
+Configure keyboard, mouse, and other input devices
+input-keyboard
+
+5
+Input settings
+lxqt-config-input
+0
+32
+
+
+Qt;Settings;HardwareSettings;DesktopSettings;LXQt
+
+-lxqt-config-locale.desktop
+Locale
+Locale settings for LXQt
+preferences-desktop-locale
+
+5
+Locale settings
+lxqt-config-locale
+0
+32
+
+
+Settings;DesktopSettings;Qt;LXQt
+
+-lxqt-config-monitor.desktop
+Monitor settings
+Configure monitors
+preferences-desktop-display
+
+5
+Monitor settings
+lxqt-config-monitor
+0
+32
+
+
+Settings;DesktopSettings;Qt;LXQt;HardwareSettings
+
+-lxqt-config-session.desktop
+Session Settings
+Configuration for LXQt sessions
+preferences-system-session-services
+
+5
+LXQt Session Settings
+lxqt-config-session
+0
+32
+
+
+Settings;DesktopSettings;Qt;LXQt
+
+-lxqt-admin-user.desktop
+Users and Groups
+Configure the users and groups of your system
+preferences-system
+
+5
+User and Group Settings
+lxqt-admin-user
+0
+32
+
+
+Settings;System;DesktopSettings;Qt;LXQt
+
+-lxqt-xfwm4-settings.desktop
+Window Manager
+Configure window behavior and shortcuts
+xfwm4
+
+5
+
+xfwm4-settings
+2
+32
+xfwm4-settings
+
+LXQt;GTK;Settings;DesktopSettings;
+
+-lxqt-xfwmtweaks-settings.desktop
+Window Manager Tweaks
+Fine-tune window behaviour and effects
+wmtweaks
+
+5
+
+xfwm4-tweaks-settings
+2
+32
+xfwm4-tweaks-settings
+
+LXQt;GTK;Settings;DesktopSettings
+
+-lxqt-xfwmworkspace-settings.desktop
+Workspaces
+Configure layout, names and margins
+xfce4-workspaces
+
+5
+
+xfwm4-workspace-settings
+2
+32
+xfwm4-workspace-settings
+
+LXQt;GTK;Settings;DesktopSettings
+
+
+-galternatives.desktop
+Alternatives Configurator
+Configure the system default alternatives
+galternatives
+
+5
+
+/usr/sbin/galternatives
+2
+0
+
+
+Settings;GTK;System
+
+-xfce-wm-settings.desktop
+Window Manager
+Configure window behavior and shortcuts
+xfwm4
+
+5
+
+xfwm4-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+
+-xfce-wmtweaks-settings.desktop
+Window Manager Tweaks
+Fine-tune window behaviour and effects
+wmtweaks
+
+5
+
+xfwm4-tweaks-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+
+-xfce-workspaces-settings.desktop
+Workspaces
+Configure layout, names and margins
+xfce4-workspaces
+
+5
+
+xfwm4-workspace-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+
+
+-lxqt-about.desktop
+About LXQt
+Learn more about LXQt
+help-about
+
+5
+About LXQt
+lxqt-about
+0
+32
+
+
+System;Documentation
+
+-
++X-Leave
+Leave
+Leave Session
+system-shutdown
+lxqt-leave.directory
+2
+0
+-lxqt-hibernate.desktop
+Hibernate
+hibernate the machine
+system-suspend-hibernate
+
+5
+Hibernate
+lxqt-leave --hibernate
+0
+32
+
+
+System;X-Leave
+
+-lxqt-leave.desktop
+Leave
+Leave dialog
+system-shutdown
+
+5
+Leave
+lxqt-leave
+0
+32
+
+
+System;X-Leave
+
+-lxqt-logout.desktop
+Logout
+Logout from the current session
+system-log-out
+
+5
+Logout
+lxqt-leave --logout
+0
+32
+
+
+System;X-Leave
+
+-lxqt-reboot.desktop
+Reboot
+reboot the machine
+system-reboot
+
+5
+Reboot
+lxqt-leave --reboot
+0
+32
+
+
+System;X-Leave
+
+-lxqt-shutdown.desktop
+Shutdown
+shutdown the machine
+system-shutdown
+
+5
+Shutdown
+lxqt-leave --shutdown
+0
+32
+
+
+System;X-Leave
+
+-lxqt-suspend.desktop
+Suspend
+suspend the machine
+system-suspend
+
+5
+Suspend
+lxqt-leave --suspend
+0
+32
+
+
+System;X-Leave
+
+
+-lxqt-lockscreen.desktop
+Lock Screen
+Lock the current session
+system-lock-screen
+
+5
+Lock Screen
+lxqt-leave --lockscreen
+0
+32
+
+
+System;Screensaver
+
+

@@ -1,0 +1,36 @@
+Xsession: X session started for debian at Sat May 19 18:23:55 UTC 2018
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/debian/.Xauthority
+localuser:debian being added to access control list
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1
+libGL error: failed to open drm device: Permission denied
+libGL error: failed to load driver: omap
+OpenGL version: 3.
+dbus-update-activation-environment: setting USER=debian
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting HOME=/home/debian
+dbus-update-activation-environment: setting DESKTOP_SESSION=lxqt
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting LOGNAME=debian
+dbus-update-activation-environment: setting PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=lxqt
+dbus-update-activation-environment: setting XAUTHORITY=/home/debian/.Xauthority
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/debian
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting GDMSESSION=lxqt
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/debian
+MESA-LOADER: failed to retrieve device information
+libEGL warning: DRI2: failed to open omapdrm (search paths /usr/lib/arm-linux-gnueabihf/dri:${ORIGIN}/dri:/usr/lib/dri)
+QXcbConnection: XCB error: 148 (Unknown), sequence: 173, resource id: 0, major code: 140 (Unknown), minor code: 20
+Activating service name='org.a11y.atspi.Registry'
+Successfully activated service 'org.a11y.atspi.Registry'

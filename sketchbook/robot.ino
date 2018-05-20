@@ -28,7 +28,7 @@
   Written by Limor Fried/Ladyada for Adafruit Industries.  
   BSD license, all text above must be included in any redistribution
  ****************************************************/
-
+#include <math.h>
 #include <Wire.h>
 #include <Adafruit_PWMServoDriver.h>
 
@@ -45,55 +45,111 @@ Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
 #define SERVOMAX  575 // this is the 'maximum' pulse length count (out of 4096)
 
 // our servo # counter
-uint8_t ROTATION_SERVO = 3;
+uint8_t ROTATION_SERVO = 4; //pin set 3 was acting funny I think
 uint8_t HAND_SERVO = 2;
-uint8_t BACK_AND_FORTH_SERVO_0 = 1; // I think this one and the next one do the same motion. Not Sure.
-uint8_t BACK_AND_FORTH_SERVO_1 = 0;
+uint8_t UP_AND_DOWN_SERVO = 1;
+uint8_t FRONT_AND_BACK_SERVO = 0;
 
-/*
- * angleToPulse(int ang)
- * gets angle in degree and returns the pulse width
- * also prints the value on seial monitor
- * written by Ahmad Nejrabi for Robojax, Robojax.com
- */
-int angleToPulse(int ang){
-   int pulse = map(ang,0, 180, SERVOMIN,SERVOMAX);// map angle of 0 to 180 to Servo min and Servo max 
-   Serial.print("Angle: ");Serial.print(ang);
-   Serial.print(" pulse: ");Serial.println(pulse);
+int angleToPulse(int ang ){
+   const int servoMin = 0;
+   const int servoMax = 180;
+   int pulse = map(ang, servoMin, servoMax, SERVOMIN,SERVOMAX);// map angle of 0 to 180 to Servo min and Servo max 
    return pulse;
 }
 
 void setup() {
   Serial.begin(9600);
   Serial.println("16 channel Servo test!");
-
   pwm.begin();
-  
   pwm.setPWMFreq(60);  // Analog servos run at ~60 Hz updates
-
   //yield();
 }
 
-void loop() {
+int currRotation = 90;
+int newRotation = 90;
+int currUpAndDown = 90;
+int newUpAndDown = 90;
+int currFrontAndBack = 90;
+int newFrontAndBack = 90;
+int currHand = 90;
+int newHand = 90;
 
-  //if(Serial.available() > 0)
-  //{
-    //int incoming = Serial.read();
-for( int i = 0; i < 180; ++i )
-{
-    int incoming = i;
-    pwm.setPWM(ROTATION_SERVO, 0, angleToPulse(incoming));    
-    pwm.setPWM(BACK_AND_FORTH_SERVO_0, 0, angleToPulse(incoming));    
-    pwm.setPWM(BACK_AND_FORTH_SERVO_1, 0, angleToPulse(incoming));    
-    pwm.setPWM(HAND_SERVO, 0, angleToPulse(incoming));    
-}
-for( int i = 180; i > 0; --i )
-{
-    int incoming = i;
-    pwm.setPWM(ROTATION_SERVO, 0, angleToPulse(incoming));    
-    pwm.setPWM(BACK_AND_FORTH_SERVO_0, 0, angleToPulse(incoming));    
-    pwm.setPWM(BACK_AND_FORTH_SERVO_1, 0, angleToPulse(incoming));    
-    pwm.setPWM(HAND_SERVO, 0, angleToPulse(incoming));    
-}
-  //}
+
+const int minRot = 1;
+const int maxRot = 179;
+
+const int minUpDn = 10;
+const int maxUpDn = 50;
+
+const int minFtBk = 10;
+const int maxFtBk = 50;
+
+const int minHand = 1;
+const int maxHand = 179;
+
+void loop() {
+  if(Serial.available() > 0)
+  {
+    char incoming = Serial.read();
+    switch(incoming)
+    {
+        case( '0' ):
+        {
+            newRotation = max(minRot,currRotation - 2);
+            pwm.setPWM(ROTATION_SERVO, 0, angleToPulse( newRotation ));    
+            currRotation = newRotation;
+            break;
+        }   
+        case( '1' ):
+        {        
+            newRotation = min(maxRot, currRotation + 2);
+            pwm.setPWM(ROTATION_SERVO, 0, angleToPulse( newRotation ));    
+            currRotation = newRotation;
+            break;
+        }
+        case( '2' ):
+        {
+            newUpAndDown = max(minUpDn,currUpAndDown - 2);
+            pwm.setPWM(UP_AND_DOWN_SERVO, 0, angleToPulse( newUpAndDown ));    
+            currUpAndDown = newUpAndDown;
+            break;
+        }    
+        case( '3' ):
+        {
+            newUpAndDown = min(maxUpDn, currUpAndDown + 2);
+            pwm.setPWM(UP_AND_DOWN_SERVO, 0, angleToPulse( newUpAndDown ));    
+            currUpAndDown = newUpAndDown;
+            break;
+        }
+        case( '4' ):
+        {    
+            newFrontAndBack = max(minFtBk,currFrontAndBack - 2);
+            pwm.setPWM(FRONT_AND_BACK_SERVO, 0, angleToPulse( newFrontAndBack ));    
+            currFrontAndBack = newFrontAndBack;
+            break;
+        }
+        case( '5' ):
+        {
+            newFrontAndBack = min(maxFtBk, currFrontAndBack + 2);
+            pwm.setPWM(FRONT_AND_BACK_SERVO, 0, angleToPulse( newFrontAndBack ));    
+            currFrontAndBack = newFrontAndBack;
+            break;
+        }
+
+        case( '6' ):
+        {
+            newHand = max( minHand, currHand - 2);
+            pwm.setPWM(HAND_SERVO, 0, angleToPulse( newHand ));    
+            currHand = newHand;
+            break;
+        }
+        case( '7' ):
+        {
+            newHand = min(maxHand, currHand + 2);
+            pwm.setPWM(HAND_SERVO, 0, angleToPulse( newHand ));    
+            currHand = newHand;
+            break;
+        }
+    }
+  }
 }

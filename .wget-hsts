@@ -1,0 +1,5 @@
+# HSTS 1.0 Known Hosts database for GNU Wget.
+# Edit at your own risk.
+# <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
+bootstrap.pypa.io	0	1	1517149506	315360000
+rcn-ee.com	0	0	1517149581	15768000
