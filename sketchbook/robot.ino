@@ -79,7 +79,7 @@ const int minRot = 1;
 const int maxRot = 179;
 
 const int minUpDn = 10;
-const int maxUpDn = 50;
+const int maxUpDn = 80;
 
 const int minFtBk = 10;
 const int maxFtBk = 50;

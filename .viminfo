@@ -21,7 +21,7 @@ $currHand
 
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1526853667,,"wq!"
+|2,0,1526862518,,"wq!"
 :w!
 |2,0,1526853425,,"w!"
 :q
@@ -187,36 +187,46 @@ $currHand
 	        if ( incoming == '4' ){
 |3,0,9,1,1,0,1526757645,"        if ( incoming == '4' ){"
 ""-	CHAR	0
-	0
-|3,1,36,0,1,0,1526853654,"0"
+	1
+|3,1,36,0,1,0,1526862514,"1"
 
 # File marks:
-'0  88  22  ~/sketchbook/robot.ino
-|4,48,88,22,1526853667,"~/sketchbook/robot.ino"
-'1  149  59  ~/sketchbook/robot.ino
-|4,49,149,59,1526853544,"~/sketchbook/robot.ino"
+'0  12  32  ~/controlArmWithJoystick.py
+|4,48,12,32,1526862519,"~/controlArmWithJoystick.py"
+'1  88  22  ~/sketchbook/robot.ino
+|4,49,88,22,1526853667,"~/sketchbook/robot.ino"
 '2  149  59  ~/sketchbook/robot.ino
 |4,50,149,59,1526853544,"~/sketchbook/robot.ino"
-'3  1  0  ~/sketchbook/robot
-|4,51,1,0,1526852953,"~/sketchbook/robot"
-'4  155  76  ~/sketchbook/robot.ino
-|4,52,155,76,1526852388,"~/sketchbook/robot.ino"
+'3  149  59  ~/sketchbook/robot.ino
+|4,51,149,59,1526853544,"~/sketchbook/robot.ino"
+'4  1  0  ~/sketchbook/robot
+|4,52,1,0,1526852953,"~/sketchbook/robot"
 '5  155  76  ~/sketchbook/robot.ino
 |4,53,155,76,1526852388,"~/sketchbook/robot.ino"
-'6  96  16  ~/sketchbook/robot.ino
-|4,54,96,16,1526759583,"~/sketchbook/robot.ino"
-'7  86  16  ~/sketchbook/robot.ino
-|4,55,86,16,1526759583,"~/sketchbook/robot.ino"
-'8  102  16  ~/sketchbook/robot.ino
-|4,56,102,16,1526759583,"~/sketchbook/robot.ino"
-'9  92  16  ~/sketchbook/robot.ino
-|4,57,92,16,1526759583,"~/sketchbook/robot.ino"
+'6  155  76  ~/sketchbook/robot.ino
+|4,54,155,76,1526852388,"~/sketchbook/robot.ino"
+'7  96  16  ~/sketchbook/robot.ino
+|4,55,96,16,1526759583,"~/sketchbook/robot.ino"
+'8  86  16  ~/sketchbook/robot.ino
+|4,56,86,16,1526759583,"~/sketchbook/robot.ino"
+'9  102  16  ~/sketchbook/robot.ino
+|4,57,102,16,1526759583,"~/sketchbook/robot.ino"
 
 # Jumplist (newest first):
+-'  12  32  ~/controlArmWithJoystick.py
+|4,39,12,32,1526862519,"~/controlArmWithJoystick.py"
+-'  35  28  ~/controlArmWithJoystick.py
+|4,39,35,28,1526862509,"~/controlArmWithJoystick.py"
+-'  88  22  ~/sketchbook/robot.ino
+|4,39,88,22,1526853667,"~/sketchbook/robot.ino"
 -'  88  22  ~/sketchbook/robot.ino
 |4,39,88,22,1526853667,"~/sketchbook/robot.ino"
 -'  149  59  ~/sketchbook/robot.ino
 |4,39,149,59,1526853644,"~/sketchbook/robot.ino"
+-'  149  59  ~/sketchbook/robot.ino
+|4,39,149,59,1526853644,"~/sketchbook/robot.ino"
+-'  149  59  ~/sketchbook/robot.ino
+|4,39,149,59,1526853544,"~/sketchbook/robot.ino"
 -'  149  59  ~/sketchbook/robot.ino
 |4,39,149,59,1526853544,"~/sketchbook/robot.ino"
 -'  1  0  ~/sketchbook/robot
@@ -227,12 +237,36 @@ $currHand
 |4,39,1,0,1526852953,"~/sketchbook/robot"
 -'  1  0  ~/sketchbook/robot
 |4,39,1,0,1526852953,"~/sketchbook/robot"
+-'  1  0  ~/sketchbook/robot
+|4,39,1,0,1526852953,"~/sketchbook/robot"
+-'  1  0  ~/sketchbook/robot
+|4,39,1,0,1526852953,"~/sketchbook/robot"
+-'  1  0  ~/sketchbook/robot
+|4,39,1,0,1526852953,"~/sketchbook/robot"
+-'  1  0  ~/sketchbook/robot
+|4,39,1,0,1526852953,"~/sketchbook/robot"
 -'  155  76  ~/sketchbook/robot.ino
 |4,39,155,76,1526852388,"~/sketchbook/robot.ino"
 -'  155  76  ~/sketchbook/robot.ino
 |4,39,155,76,1526852388,"~/sketchbook/robot.ino"
 -'  155  76  ~/sketchbook/robot.ino
 |4,39,155,76,1526852388,"~/sketchbook/robot.ino"
+-'  155  76  ~/sketchbook/robot.ino
+|4,39,155,76,1526852388,"~/sketchbook/robot.ino"
+-'  155  76  ~/sketchbook/robot.ino
+|4,39,155,76,1526852388,"~/sketchbook/robot.ino"
+-'  155  76  ~/sketchbook/robot.ino
+|4,39,155,76,1526852388,"~/sketchbook/robot.ino"
+-'  107  12  ~/sketchbook/robot.ino
+|4,39,107,12,1526842884,"~/sketchbook/robot.ino"
+-'  113  12  ~/sketchbook/robot.ino
+|4,39,113,12,1526842884,"~/sketchbook/robot.ino"
+-'  107  12  ~/sketchbook/robot.ino
+|4,39,107,12,1526842884,"~/sketchbook/robot.ino"
+-'  113  12  ~/sketchbook/robot.ino
+|4,39,113,12,1526842884,"~/sketchbook/robot.ino"
+-'  113  12  ~/sketchbook/robot.ino
+|4,39,113,12,1526842884,"~/sketchbook/robot.ino"
 -'  107  12  ~/sketchbook/robot.ino
 |4,39,107,12,1526842884,"~/sketchbook/robot.ino"
 -'  113  12  ~/sketchbook/robot.ino
@@ -253,6 +287,26 @@ $currHand
 |4,39,117,8,1526842868,"~/sketchbook/robot.ino"
 -'  117  8  ~/sketchbook/robot.ino
 |4,39,117,8,1526842868,"~/sketchbook/robot.ino"
+-'  111  8  ~/sketchbook/robot.ino
+|4,39,111,8,1526842868,"~/sketchbook/robot.ino"
+-'  117  8  ~/sketchbook/robot.ino
+|4,39,117,8,1526842868,"~/sketchbook/robot.ino"
+-'  111  8  ~/sketchbook/robot.ino
+|4,39,111,8,1526842868,"~/sketchbook/robot.ino"
+-'  117  8  ~/sketchbook/robot.ino
+|4,39,117,8,1526842868,"~/sketchbook/robot.ino"
+-'  117  8  ~/sketchbook/robot.ino
+|4,39,117,8,1526842868,"~/sketchbook/robot.ino"
+-'  135  12  ~/sketchbook/robot.ino
+|4,39,135,12,1526842844,"~/sketchbook/robot.ino"
+-'  141  12  ~/sketchbook/robot.ino
+|4,39,141,12,1526842844,"~/sketchbook/robot.ino"
+-'  135  12  ~/sketchbook/robot.ino
+|4,39,135,12,1526842844,"~/sketchbook/robot.ino"
+-'  141  12  ~/sketchbook/robot.ino
+|4,39,141,12,1526842844,"~/sketchbook/robot.ino"
+-'  141  12  ~/sketchbook/robot.ino
+|4,39,141,12,1526842844,"~/sketchbook/robot.ino"
 -'  135  12  ~/sketchbook/robot.ino
 |4,39,135,12,1526842844,"~/sketchbook/robot.ino"
 -'  141  12  ~/sketchbook/robot.ino
@@ -273,6 +327,26 @@ $currHand
 |4,39,127,12,1526842831,"~/sketchbook/robot.ino"
 -'  127  12  ~/sketchbook/robot.ino
 |4,39,127,12,1526842831,"~/sketchbook/robot.ino"
+-'  121  12  ~/sketchbook/robot.ino
+|4,39,121,12,1526842831,"~/sketchbook/robot.ino"
+-'  127  12  ~/sketchbook/robot.ino
+|4,39,127,12,1526842831,"~/sketchbook/robot.ino"
+-'  121  12  ~/sketchbook/robot.ino
+|4,39,121,12,1526842831,"~/sketchbook/robot.ino"
+-'  127  12  ~/sketchbook/robot.ino
+|4,39,127,12,1526842831,"~/sketchbook/robot.ino"
+-'  127  12  ~/sketchbook/robot.ino
+|4,39,127,12,1526842831,"~/sketchbook/robot.ino"
+-'  94  19  ~/sketchbook/robot.ino
+|4,39,94,19,1526842782,"~/sketchbook/robot.ino"
+-'  100  19  ~/sketchbook/robot.ino
+|4,39,100,19,1526842782,"~/sketchbook/robot.ino"
+-'  94  19  ~/sketchbook/robot.ino
+|4,39,94,19,1526842782,"~/sketchbook/robot.ino"
+-'  100  19  ~/sketchbook/robot.ino
+|4,39,100,19,1526842782,"~/sketchbook/robot.ino"
+-'  100  19  ~/sketchbook/robot.ino
+|4,39,100,19,1526842782,"~/sketchbook/robot.ino"
 -'  94  19  ~/sketchbook/robot.ino
 |4,39,94,19,1526842782,"~/sketchbook/robot.ino"
 -'  100  19  ~/sketchbook/robot.ino
@@ -303,6 +377,26 @@ $currHand
 |4,39,69,0,1526842726,"~/sketchbook/robot.ino"
 -'  109  18  ~/sketchbook/robot.ino
 |4,39,109,18,1526842726,"~/sketchbook/robot.ino"
+-'  63  0  ~/sketchbook/robot.ino
+|4,39,63,0,1526842726,"~/sketchbook/robot.ino"
+-'  103  18  ~/sketchbook/robot.ino
+|4,39,103,18,1526842726,"~/sketchbook/robot.ino"
+-'  69  0  ~/sketchbook/robot.ino
+|4,39,69,0,1526842726,"~/sketchbook/robot.ino"
+-'  109  18  ~/sketchbook/robot.ino
+|4,39,109,18,1526842726,"~/sketchbook/robot.ino"
+-'  63  0  ~/sketchbook/robot.ino
+|4,39,63,0,1526842726,"~/sketchbook/robot.ino"
+-'  103  18  ~/sketchbook/robot.ino
+|4,39,103,18,1526842726,"~/sketchbook/robot.ino"
+-'  69  0  ~/sketchbook/robot.ino
+|4,39,69,0,1526842726,"~/sketchbook/robot.ino"
+-'  109  18  ~/sketchbook/robot.ino
+|4,39,109,18,1526842726,"~/sketchbook/robot.ino"
+-'  69  0  ~/sketchbook/robot.ino
+|4,39,69,0,1526842726,"~/sketchbook/robot.ino"
+-'  109  18  ~/sketchbook/robot.ino
+|4,39,109,18,1526842726,"~/sketchbook/robot.ino"
 -'  68  2  ~/sketchbook/robot.ino
 |4,39,68,2,1526842724,"~/sketchbook/robot.ino"
 -'  74  2  ~/sketchbook/robot.ino
@@ -313,108 +407,119 @@ $currHand
 |4,39,74,2,1526842724,"~/sketchbook/robot.ino"
 -'  74  2  ~/sketchbook/robot.ino
 |4,39,74,2,1526842724,"~/sketchbook/robot.ino"
--'  65  2  ~/sketchbook/robot.ino
-|4,39,65,2,1526842719,"~/sketchbook/robot.ino"
--'  71  2  ~/sketchbook/robot.ino
-|4,39,71,2,1526842719,"~/sketchbook/robot.ino"
--'  65  2  ~/sketchbook/robot.ino
-|4,39,65,2,1526842719,"~/sketchbook/robot.ino"
--'  71  2  ~/sketchbook/robot.ino
-|4,39,71,2,1526842719,"~/sketchbook/robot.ino"
--'  71  2  ~/sketchbook/robot.ino
-|4,39,71,2,1526842719,"~/sketchbook/robot.ino"
--'  120  12  ~/sketchbook/robot.ino
-|4,39,120,12,1526841351,"~/sketchbook/robot.ino"
--'  126  12  ~/sketchbook/robot.ino
-|4,39,126,12,1526841351,"~/sketchbook/robot.ino"
--'  120  12  ~/sketchbook/robot.ino
-|4,39,120,12,1526841351,"~/sketchbook/robot.ino"
--'  126  12  ~/sketchbook/robot.ino
-|4,39,126,12,1526841351,"~/sketchbook/robot.ino"
--'  126  12  ~/sketchbook/robot.ino
-|4,39,126,12,1526841351,"~/sketchbook/robot.ino"
--'  50  0  ~/sketchbook/robot.ino
-|4,39,50,0,1526841311,"~/sketchbook/robot.ino"
--'  50  0  ~/sketchbook/robot.ino
-|4,39,50,0,1526841311,"~/sketchbook/robot.ino"
--'  50  0  ~/sketchbook/robot.ino
-|4,39,50,0,1526841311,"~/sketchbook/robot.ino"
--'  50  0  ~/sketchbook/robot.ino
-|4,39,50,0,1526841311,"~/sketchbook/robot.ino"
--'  51  0  ~/sketchbook/robot.ino
-|4,39,51,0,1526841290,"~/sketchbook/robot.ino"
--'  51  0  ~/sketchbook/robot.ino
-|4,39,51,0,1526841290,"~/sketchbook/robot.ino"
--'  51  0  ~/sketchbook/robot.ino
-|4,39,51,0,1526841290,"~/sketchbook/robot.ino"
--'  51  0  ~/sketchbook/robot.ino
-|4,39,51,0,1526841290,"~/sketchbook/robot.ino"
--'  56  24  ~/sketchbook/robot.ino
-|4,39,56,24,1526841281,"~/sketchbook/robot.ino"
--'  60  24  ~/sketchbook/robot.ino
-|4,39,60,24,1526841281,"~/sketchbook/robot.ino"
--'  56  24  ~/sketchbook/robot.ino
-|4,39,56,24,1526841281,"~/sketchbook/robot.ino"
--'  60  24  ~/sketchbook/robot.ino
-|4,39,60,24,1526841281,"~/sketchbook/robot.ino"
--'  60  24  ~/sketchbook/robot.ino
-|4,39,60,24,1526841281,"~/sketchbook/robot.ino"
--'  53  46  ~/sketchbook/robot.ino
-|4,39,53,46,1526841280,"~/sketchbook/robot.ino"
--'  59  46  ~/sketchbook/robot.ino
-|4,39,59,46,1526841280,"~/sketchbook/robot.ino"
--'  53  46  ~/sketchbook/robot.ino
-|4,39,53,46,1526841280,"~/sketchbook/robot.ino"
--'  59  46  ~/sketchbook/robot.ino
-|4,39,59,46,1526841280,"~/sketchbook/robot.ino"
--'  59  46  ~/sketchbook/robot.ino
-|4,39,59,46,1526841280,"~/sketchbook/robot.ino"
--'  48  27  ~/sketchbook/robot.ino
-|4,39,48,27,1526841276,"~/sketchbook/robot.ino"
--'  48  27  ~/sketchbook/robot.ino
-|4,39,48,27,1526841276,"~/sketchbook/robot.ino"
--'  48  27  ~/sketchbook/robot.ino
-|4,39,48,27,1526841276,"~/sketchbook/robot.ino"
--'  48  27  ~/sketchbook/robot.ino
-|4,39,48,27,1526841276,"~/sketchbook/robot.ino"
--'  72  0  ~/sketchbook/robot.ino
-|4,39,72,0,1526841257,"~/sketchbook/robot.ino"
--'  78  0  ~/sketchbook/robot.ino
-|4,39,78,0,1526841257,"~/sketchbook/robot.ino"
--'  72  0  ~/sketchbook/robot.ino
-|4,39,72,0,1526841257,"~/sketchbook/robot.ino"
--'  78  0  ~/sketchbook/robot.ino
-|4,39,78,0,1526841257,"~/sketchbook/robot.ino"
--'  78  0  ~/sketchbook/robot.ino
-|4,39,78,0,1526841257,"~/sketchbook/robot.ino"
--'  96  16  ~/sketchbook/robot.ino
-|4,39,96,16,1526838849,"~/sketchbook/robot.ino"
--'  102  16  ~/sketchbook/robot.ino
-|4,39,102,16,1526838849,"~/sketchbook/robot.ino"
--'  96  16  ~/sketchbook/robot.ino
-|4,39,96,16,1526838849,"~/sketchbook/robot.ino"
--'  102  16  ~/sketchbook/robot.ino
-|4,39,102,16,1526838849,"~/sketchbook/robot.ino"
--'  102  16  ~/sketchbook/robot.ino
-|4,39,102,16,1526838849,"~/sketchbook/robot.ino"
--'  86  16  ~/sketchbook/robot.ino
-|4,39,86,16,1526759583,"~/sketchbook/robot.ino"
--'  92  16  ~/sketchbook/robot.ino
-|4,39,92,16,1526759583,"~/sketchbook/robot.ino"
--'  86  16  ~/sketchbook/robot.ino
-|4,39,86,16,1526759583,"~/sketchbook/robot.ino"
--'  92  16  ~/sketchbook/robot.ino
-|4,39,92,16,1526759583,"~/sketchbook/robot.ino"
--'  92  16  ~/sketchbook/robot.ino
-|4,39,92,16,1526759583,"~/sketchbook/robot.ino"
--'  48  25  ~/sketchbook/robot.ino
-|4,39,48,25,1526759552,"~/sketchbook/robot.ino"
--'  48  25  ~/sketchbook/robot.ino
-|4,39,48,25,1526759552,"~/sketchbook/robot.ino"
--'  48  25  ~/sketchbook/robot.ino
-|4,39,48,25,1526759387,"~/sketchbook/robot.ino"
+-'  68  2  ~/sketchbook/robot.ino
+|4,39,68,2,1526842724,"~/sketchbook/robot.ino"
+-'  74  2  ~/sketchbook/robot.ino
+|4,39,74,2,1526842724,"~/sketchbook/robot.ino"
+-'  68  2  ~/sketchbook/robot.ino
+|4,39,68,2,1526842724,"~/sketchbook/robot.ino"
 
 # History of marks within files (newest to oldest):
+
+> ~/controlArmWithJoystick.py
+	*	1526862517	0
+	"	12	32
+	^	12	33
+	.	12	32
+	+	37	20
+	+	37	88
+	+	48	8
+	+	12	0
+	+	37	0
+	+	21	15
+	+	37	49
+	+	37	36
+	+	37	12
+	+	21	0
+	+	22	0
+	+	21	0
+	+	25	0
+	+	21	31
+	+	37	22
+	+	17	11
+	+	17	24
+	+	17	12
+	+	37	31
+	+	17	15
+	+	37	0
+	+	21	0
+	+	37	0
+	+	38	0
+	+	37	0
+	+	16	0
+	+	17	6
+	+	21	0
+	+	21	20
+	+	21	9
+	+	21	11
+	+	22	0
+	+	12	0
+	+	28	39
+	+	31	41
+	+	37	0
+	+	21	0
+	+	28	0
+	+	28	37
+	+	37	37
+	+	28	35
+	+	31	37
+	+	28	0
+	+	31	0
+	+	34	0
+	+	34	23
+	+	31	41
+	+	35	56
+	+	37	0
+	+	8	11
+	+	10	0
+	+	31	0
+	+	34	0
+	+	26	15
+	+	22	17
+	+	26	0
+	+	26	19
+	+	12	0
+	+	22	0
+	+	26	28
+	+	26	39
+	+	27	0
+	+	35	60
+	+	20	19
+	+	17	10
+	+	20	0
+	+	19	20
+	+	30	0
+	+	29	32
+	+	34	0
+	+	33	0
+	+	32	32
+	+	37	78
+	+	27	0
+	+	22	8
+	+	25	0
+	+	26	12
+	+	27	12
+	+	28	12
+	+	29	12
+	+	30	27
+	+	31	23
+	+	32	24
+	+	33	24
+	+	34	24
+	+	35	53
+	+	37	8
+	+	37	7
+	+	37	11
+	+	38	0
+	+	19	19
+	+	35	49
+	+	35	40
+	+	35	31
+	+	19	19
+	+	35	46
+	+	18	41
+	+	29	0
+	+	12	32
 
 > ~/sketchbook/robot.ino
 	*	1526853666	0
@@ -538,110 +643,6 @@ $currHand
 > ~/sketchbook/mak
 	*	1526755586	0
 	"	1	0
-
-> ~/controlArmWithJoystick.py
-	*	1526754116	0
-	"	35	28
-	^	19	0
-	.	29	0
-	+	37	20
-	+	37	88
-	+	48	8
-	+	12	0
-	+	37	0
-	+	21	15
-	+	37	49
-	+	37	36
-	+	37	12
-	+	21	0
-	+	22	0
-	+	21	0
-	+	25	0
-	+	21	31
-	+	37	22
-	+	17	11
-	+	17	24
-	+	17	12
-	+	37	31
-	+	17	15
-	+	37	0
-	+	21	0
-	+	37	0
-	+	38	0
-	+	37	0
-	+	16	0
-	+	17	6
-	+	21	0
-	+	21	20
-	+	21	9
-	+	21	11
-	+	22	0
-	+	12	0
-	+	28	39
-	+	31	41
-	+	37	0
-	+	21	0
-	+	28	0
-	+	28	37
-	+	37	37
-	+	28	35
-	+	31	37
-	+	28	0
-	+	31	0
-	+	34	0
-	+	34	23
-	+	31	41
-	+	35	56
-	+	37	0
-	+	8	11
-	+	10	0
-	+	31	0
-	+	34	0
-	+	26	15
-	+	22	17
-	+	26	0
-	+	26	19
-	+	12	0
-	+	22	0
-	+	26	28
-	+	26	39
-	+	27	0
-	+	35	60
-	+	20	19
-	+	17	10
-	+	20	0
-	+	19	20
-	+	30	0
-	+	29	32
-	+	34	0
-	+	33	0
-	+	32	32
-	+	37	78
-	+	27	0
-	+	22	8
-	+	25	0
-	+	26	12
-	+	27	12
-	+	28	12
-	+	29	12
-	+	30	27
-	+	31	23
-	+	32	24
-	+	33	24
-	+	34	24
-	+	35	53
-	+	37	8
-	+	37	7
-	+	37	11
-	+	38	0
-	+	19	19
-	+	35	49
-	+	35	40
-	+	35	31
-	+	19	19
-	+	35	46
-	+	18	41
-	+	29	0
 
 > ~/sketchbook/README.md
 	*	1526437012	0

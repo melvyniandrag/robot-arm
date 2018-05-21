@@ -8,15 +8,21 @@ import serial
 import time
 
 ROTATION_INPUT = 'ABS_RZ'
+FRONT_BACK_INPUT = 'ABS_Y'
+UP_INPUT = 'BTN_THUMB'
+DOWN_INPUT = 'BTN_THUMB2'
 
-ser = serial.Serial('/dev/ttyACM1', 9600 )
+HAND_INPUT = 'ABS_THROTTLE' 
+HAND_INPUT_MAX = 35
+HAND_INPUT_MIN = 185
+
+ser = serial.Serial('/dev/ttyACM0', 9600 )
 
 #This would potentially be wrong if we added more devices.
 joystick = devices[0]
 
 def main():
-    log_file = open( "robot_log.txt", "w")
-    time_delta = 0.02
+    time_delta = 0.002
     t0 = time.time()
     while( 1 ):
         t1 = time.time()
@@ -24,15 +30,31 @@ def main():
             events = get_gamepad()
             for event in events:
                 if event.ev_type != 'Sync':
+                    if event.code == HAND_INPUT:
+                        if event.state < 60:
+                            ser.write( '7' )
+                        elif event.state > 160:
+                            ser.write( '6' )
+                        else:
+                            pass
                     if event.code == ROTATION_INPUT:
-                        if event.state < 127:
-                            log_file.write( '0' )
+                        if event.state < 100:
                             ser.write( '0' )
-                        elif event.state > 128:
-                            log_file.write( '1' )
+                        elif event.state > 135:
                             ser.write( '1' )
                         else:
-                            log_file.write( event.state)
+                            pass
+                    if event.code == FRONT_BACK_INPUT:
+                        if event.state < 300:
+                            ser.write( '5' )
+                        elif event.state > 650:
+                            ser.write( '4' )
+                        else:
+                            pass
+                    if event.code == UP_INPUT:
+                        ser.write( '3' )
+                    if event.code == DOWN_INPUT:
+                        ser.write( '2' )
             t0 = time.time()
 
 """
